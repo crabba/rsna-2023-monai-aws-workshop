@@ -1,12 +1,12 @@
-# RSNA Workshop: MONAI on AWS SageMaker
+# RSNA Workshop: MONAI on Amazon SageMaker
 
-Welcome to the **MONAI on AWS SageMaker** workshop at RSNA 2023!  In this workshop, you will learn how to use [MONAI](https://monai.io/), the Medical Open Network for Artificial Intelligence, on AWS.  You will have your own temporary AWS account, and we will be working through two MONAI workshops hosted on Jupyter notebooks on AWS SageMaker, the fully managed service to prepare data and build, train, and deploy machine learning models.
+Welcome to the **MONAI on Amazon SageMaker** workshop at RSNA 2023!  In this workshop, you will learn how to use [MONAI](https://monai.io/), the Medical Open Network for Artificial Intelligence, on AWS.  You will have your own temporary AWS account, and we will be working through two MONAI workshops hosted on Jupyter notebooks on Amazon SageMaker, the fully managed service to prepare data and build, train, and deploy machine learning models.
 
 Let's get started!
 
 ## Accessing your AWS account
 
-* Visit this link:
+Visit this link:
 
 **TODO: Update the link with the live event**
 
@@ -16,4 +16,58 @@ https://catalog.us-east-1.prod.workshops.aws/join?access-code=5ac6-0a2123-29
 * Enter your email and click **Send passcode**
 * Check your email, and on the next page under **One-time email passcode**, enter the 9-digit code you received, and click **Sign in**
 * On the **Review and join** page, review and agree to the terms and conditions, and click **Join event**
-* On the **Event dashboard** screen, click **Open AWS console (us-east-1) on the left hand sidebar.
+* On the **Event dashboard** screen, click **Open AWS console (us-east-1)** on the left hand sidebar.
+
+**TODO: Replace with an image with a better workshop name**
+
+![image](img/event-dashboard-01.jpg)
+
+## Open Amazon SageMaker
+
+You will now be on the AWS Console main page, from where you can access all AWS services.
+
+![image](img/aws-console-00.jpg)
+
+If **Amazon SageMaker** is visible as a link, click it.  Otherwise, you can locate it by typing 'Sagemaker' in the search bar.
+
+![image](img/aws-console-02.jpg)
+
+You will now be at the Amazon SageMaker main page.  A SageMaker Domain has been created for your use, so enter it by clicking on the Domain **PoCDomain**
+
+![image](img/sagemaker-00.jpg)
+
+We will now open [SageMaker Studio](https://aws.amazon.com/sagemaker/studio/), the fully integrated development environment (IDE) for machine learning. 
+
+On the Domain details page, click on the **Launch** button and select **Studio** from the drop-down list.
+
+![image](img/sagemaker-02.jpg)
+
+Note: If you see a popup that says 'Keep waiting', just wait a few more seconds.
+
+## SageMaker Studio
+
+Welcome to SageMaker Studio!  Amazon SageMaker Studio is an integrated development environment(IDE) that provides a single web-based visual interface where you can access purpose-built tools to perform all machine learning (ML) development steps, from preparing data to building, training, and deploying your ML models.
+
+The first thing we will need to do is to clone the **MONAI Bootcamp** workshop from GitHub into our environment.
+* Take a copy of this link to the workshop source: `https://github.com/Project-MONAI/monai-bootcamp.git`
+* Click the **Git** icon on the left sidebar
+* Click **Clone a repository**
+* Into the **Git repository URL**, paste the link you copied above
+* Erase the value of **Project directory to clone into**
+* Click **Clone**
+
+![image](img/studio-00.jpg)
+
+We are now viewing the README file in the `monai-bootcamp` folder.  
+
+![image](img/studio-02.jpg)
+
+Open the first workshop, 'MONAI end-to-end workflow':
+* Enter the `MONAICore` folder within `monai-bootcamp`
+* Open the Jupyter Notebook file `MONAI End-to-End Workflow - Solution.ipynb`
+  * NOTE: Ensure you open the notebook file with `Solution` in its name
+
+![image](img/studio-04.jpg)
+
+## Workshop 1: MONAI End-to-End Workflow
+
