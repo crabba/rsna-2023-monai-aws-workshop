@@ -10,7 +10,7 @@ Visit this link:
 
 **TODO: Update the link with the live event**
 
-https://catalog.us-east-1.prod.workshops.aws/join?access-code=5ac6-0a2123-29
+https://catalog.us-east-1.prod.workshops.aws/join?access-code=f000-f000000-f0
 
 * Choose **Email one-time password (OTP)**
 * Enter your email and click **Send passcode**
