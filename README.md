@@ -89,6 +89,10 @@ Open the first workshop, **MONAI end-to-end workflow**:
 
 ## Workshop 1: MONAI End-to-End Workflow
 
+In this exercise, we will use the DenseNet-121 function through MONAI to train an image classification model, using images from the [MedNIST](https://github.com/apolanco3225/Medical-MNIST-Classification/blob/master/MedNIST.ipynb) dataset.  We will train the model on 8,000 images from each of 6 image classes: AbdomenCT, BreastMRI, CXR, ChestCT, Hand, HeadCT.  The trained model will be tested on a further 1,000 images from each class.
+
+![image](img/notebook-10.jpg)
+
 Follow the instructions in the Jupyter notebook to work through the workshop.  You can use the 'Play' icon in the menu bar to execute each cell in the notebook, or shift-Enter to execute the cell and advance.
 
 Cells containing text will execute instantly.  Cells containing code will execute that code, and display `[*]:` while they are running.  Some cells take longer: Installing MONAI will take 1-2 minutes, and the **Network Training** cell will take around 2.5 minutes per epoch.  For faster (though less accurate) results, you can reduce the number of training epochs in this cell from 4 to 2 or 3.
@@ -96,6 +100,8 @@ Cells containing text will execute instantly.  Cells containing code will execut
 ![image](img/notebook-08.jpg)
 
 ## Workshop 2: Auto3DSeg
+
+In this exercise, we will use the MONAI [Auto3DSeg](https://github.com/Project-MONAI/tutorials/tree/main/auto3dseg) solution to train a model to segment a set of synthetic images in Nifti format. The model will be trained on 24 images, and tested on a further 8.
 
 Repeat the process in **Running a workshop** above, this time running the Jupyter notebook file `Auto3DSeg Hello World.ipynb` in the same folder (`monai-bootcamp/MONAICore`).  Use the same values as before for the notebook environment.
 
