@@ -8,17 +8,13 @@ Let's get started!
 
 Visit this link:
 
-**TODO: Update the link with the live event**
-
-https://catalog.us-east-1.prod.workshops.aws/join?access-code=f000-f000000-f0
+https://catalog.us-east-1.prod.workshops.aws/join?access-code=d5b0-066c6a-e6
 
 * Choose **Email one-time password (OTP)**
 * Enter your email and click **Send passcode**
 * Check your email, and on the next page under **One-time email passcode**, enter the 9-digit code you received, and click **Sign in**
 * On the **Review and join** page, review and agree to the terms and conditions, and click **Join event**
 * On the **Event dashboard** screen, click **Open AWS console (us-east-1)** on the left hand sidebar.
-
-**TODO: Replace with an image with a better workshop name**
 
 ![image](img/event-dashboard-01.jpg)
 
@@ -49,7 +45,8 @@ Note: If you see a popup that says 'Keep waiting', just wait a few more seconds.
 Welcome to SageMaker Studio!  Amazon SageMaker Studio is an integrated development environment (IDE) that provides a single web-based visual interface where you can access purpose-built tools to perform all machine learning (ML) development steps, from preparing data to building, training, and deploying your ML models.
 
 The first thing we will need to do is to clone the **MONAI Bootcamp** workshop from GitHub into our environment.
-* Take a copy of this link to the workshop source: `https://github.com/Project-MONAI/monai-bootcamp.git`
+* Take a copy of this link to the workshop source:
+  * `https://github.com/Project-MONAI/monai-bootcamp.git`
 * Click the **Git** icon on the left sidebar
 * Click **Clone a repository**
 * Into the **Git repository URL**, paste the link you copied above
@@ -58,14 +55,14 @@ The first thing we will need to do is to clone the **MONAI Bootcamp** workshop f
 
 ![image](img/studio-00.jpg)
 
-We are now viewing the README file in the `monai-bootcamp` folder.  
+We are now in the File Browser, viewing the `README.md` file in the `monai-bootcamp` folder.  
 
 ![image](img/studio-02.jpg)
 
 ## Running a workshop
 
-Open the first workshop, 'MONAI end-to-end workflow':
-* In the file explorer in the left toolbar, enter the `MONAICore` folder within `monai-bootcamp`
+Open the first workshop, **MONAI end-to-end workflow**:
+* In the file browser in the left toolbar, enter the `MONAICore` folder within `monai-bootcamp`
 * Open the Jupyter Notebook file `MONAI End-to-End Workflow - Solution.ipynb`
   * NOTE: Ensure you open the notebook file with `Solution` in its name
 
@@ -82,7 +79,11 @@ Open the first workshop, 'MONAI end-to-end workflow':
 
 ![image](img/notebook-environment-00.jpg)
 
-Note: Allow up to 7 minutes for the notebook instance and its GPU to become available
+---
+
+**Note: Allow up to 7 minutes for the notebook instance and its GPU to become available**
+
+---
 
 ![image](img/notebook-06.jpg)
 
@@ -90,7 +91,9 @@ Note: Allow up to 7 minutes for the notebook instance and its GPU to become avai
 
 Follow the instructions in the Jupyter notebook to work through the workshop.  You can use the 'Play' icon in the menu bar to execute each cell in the notebook, or shift-Enter to execute the cell and advance.
 
-Cells containing text will execute instantly.  Cells containing code will execute that code, and display `[*]:` while they are running.  Some cells take longer: Installing MONAI will take 1-2 minutes, and the Network Training cell will take around 2.5 minutes per epoch.
+Cells containing text will execute instantly.  Cells containing code will execute that code, and display `[*]:` while they are running.  Some cells take longer: Installing MONAI will take 1-2 minutes, and the **Network Training** cell will take around 2.5 minutes per epoch.  For faster (though less accurate) results, you can reduce the number of training epochs in this cell from 4 to 2 or 3.
+
+![image](img/notebook-08.jpg)
 
 ## Workshop 2: Auto3DSeg
 
